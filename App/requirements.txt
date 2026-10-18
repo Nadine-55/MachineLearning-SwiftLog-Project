@@ -1,0 +1,1 @@
+pip freeze | findstr /i "streamlit scikit-learn pandas numpy joblib"

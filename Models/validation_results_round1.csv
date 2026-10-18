@@ -1,0 +1,17 @@
+Problem,Model,Accuracy,Precision,Recall,F1,ROC_AUC,MAE,MSE,RMSE,R2
+delay,Baseline (majority),0.648,0.648,1.0,0.786,0.5,,,,
+delay,Logistic Regression,0.488,0.643,0.471,0.544,0.505,,,,
+delay,Random Forest,0.495,0.636,0.514,0.569,0.496,,,,
+delay,Gradient Boosting,0.641,0.654,0.947,0.774,0.53,,,,
+demand,Baseline (mean),,,,,,10.688,171.378,13.091,-0.123
+demand,Ridge,,,,,,10.667,172.053,13.117,-0.127
+demand,Random Forest,,,,,,10.809,177.107,13.308,-0.16
+demand,Gradient Boosting,,,,,,10.885,182.512,13.51,-0.196
+customer,Baseline (mean),,,,,,5019.246,38186705.514,6179.539,-0.003
+customer,Ridge,,,,,,4964.154,37609594.362,6132.666,0.012
+customer,Random Forest,,,,,,5102.009,38780060.207,6227.364,-0.019
+customer,Gradient Boosting,,,,,,4996.058,38954344.566,6241.342,-0.024
+warehouse,Baseline (mean),,,,,,0.065,0.009,0.095,-0.001
+warehouse,Ridge,,,,,,0.065,0.009,0.095,0.007
+warehouse,Random Forest,,,,,,0.063,0.01,0.098,-0.055
+warehouse,Gradient Boosting,,,,,,0.069,0.01,0.099,-0.098
